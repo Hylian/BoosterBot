@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:robot-boosterpack
 LIBS:robot-boosterpack-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -509,4 +509,15 @@ Wire Wire Line
 	5800 4350 5600 4350
 Wire Wire Line
 	5600 4350 5600 4450
+$Comp
+L TPS77033 IC?
+U 1 1 53A8A5F0
+P 4700 1800
+F 0 "IC?" H 4950 2100 60  0000 C CNN
+F 1 "TPS77033" H 4550 2100 60  0000 C CNN
+F 2 "" H 4550 2100 60  0000 C CNN
+F 3 "" H 4550 2100 60  0000 C CNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
