@@ -1,4 +1,4 @@
-update=6/22/2014 1:08:55 PM
+update=Mon 23 Jun 2014 04:15:12 PM CDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -29,7 +29,10 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/Edward/Documents/GitHub/Robotics-BoosterPack/PCB/library
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
