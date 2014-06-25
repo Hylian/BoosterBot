@@ -552,17 +552,6 @@ F 3 "" H 9000 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
-U 1 1 53A8D954
-P 10100 1400
-F 0 "R19" V 10180 1400 40  0000 C CNN
-F 1 "49.9" V 10107 1401 40  0000 C CNN
-F 2 "~" V 10030 1400 30  0000 C CNN
-F 3 "~" H 10100 1400 30  0000 C CNN
-	1    10100 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C10
 U 1 1 53A8DED5
 P 10100 1950
@@ -1163,7 +1152,7 @@ Connection ~ 9900 1150
 Wire Wire Line
 	9850 1700 10100 1700
 Wire Wire Line
-	10100 1650 10100 1750
+	10100 550  10100 1750
 Connection ~ 9850 1450
 Connection ~ 10100 1700
 Connection ~ 9850 1700
@@ -1445,4 +1434,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 3200 4050 3450
 Connection ~ 4050 3450
+Wire Wire Line
+	10100 550  7300 550 
+Wire Wire Line
+	7300 550  7300 1150
+Connection ~ 7300 1150
 $EndSCHEMATC
