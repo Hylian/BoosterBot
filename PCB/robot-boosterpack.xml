@@ -2,7 +2,7 @@
 <export version="D">
     <design>
         <source>/home/edward/Documents/Robotics-BoosterPack/PCB/robot-boosterpack.sch</source>
-        <date>Wed 25 Jun 2014 10:56:53 AM CDT</date>
+        <date>Thu 26 Jun 2014 11:36:38 AM CDT</date>
         <tool>Eeschema (2014-jan-25)-product</tool>
     </design>
     <components>
@@ -144,12 +144,6 @@
             <sheetpath names="/" tstamps="/"/>
             <tstamp>53A8D376</tstamp>
         </comp>
-        <comp ref="R19">
-            <value>49.9</value>
-            <libsource lib="device" part="R"/>
-            <sheetpath names="/" tstamps="/"/>
-            <tstamp>53A8D954</tstamp>
-        </comp>
         <comp ref="C10">
             <value>1 uF</value>
             <libsource lib="device" part="C"/>
@@ -169,7 +163,7 @@
             <tstamp>53A8E56D</tstamp>
         </comp>
         <comp ref="R16">
-            <value>21.233k</value>
+            <value>23k</value>
             <libsource lib="device" part="R"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>53A8E604</tstamp>
@@ -283,7 +277,7 @@
             <tstamp>53AA90E2</tstamp>
         </comp>
         <comp ref="J3">
-            <value>10V Jumper</value>
+            <value>9V Jumper</value>
             <libsource lib="conn" part="CONN_3"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>53AB4F38</tstamp>
@@ -311,6 +305,12 @@
             <libsource lib="conn" part="CONN_2"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>53ABA6DF</tstamp>
+        </comp>
+        <comp ref="R19">
+            <value>49.9</value>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>53AC05A6</tstamp>
         </comp>
     </components>
     <libparts>
@@ -565,223 +565,225 @@
         </library>
     </libraries>
     <nets>
-        <net code="1" name="Net-(J3-Pad2)">
-            <node ref="J3" pin="2"/>
-            <node ref="L1" pin="1"/>
+        <net code="1" name="Net-(C10-Pad1)">
+            <node ref="C10" pin="1"/>
+            <node ref="R18" pin="1"/>
+            <node ref="R19" pin="2"/>
+            <node ref="IC4" pin="2"/>
+            <node ref="IC4" pin="6"/>
         </net>
-        <net code="2" name="Net-(IC1-Pad1)">
-            <node ref="IC1" pin="1"/>
-            <node ref="R5" pin="2"/>
+        <net code="2" name="Net-(D1-Pad1)">
+            <node ref="L1" pin="2"/>
+            <node ref="IC4" pin="8"/>
+            <node ref="D1" pin="1"/>
         </net>
-        <net code="3" name="+10V">
-            <node ref="C1" pin="2"/>
-            <node ref="IC4" pin="7"/>
-            <node ref="C5" pin="2"/>
-            <node ref="IC1" pin="12"/>
-            <node ref="D1" pin="2"/>
-            <node ref="C3" pin="1"/>
-            <node ref="R17" pin="1"/>
-            <node ref="IC3" pin="1"/>
-            <node ref="R10" pin="2"/>
-            <node ref="C9" pin="1"/>
-        </net>
-        <net code="4" name="Net-(C9-Pad2)">
+        <net code="3" name="Net-(C9-Pad2)">
             <node ref="C9" pin="2"/>
             <node ref="IC4" pin="4"/>
-            <node ref="R17" pin="2"/>
             <node ref="R16" pin="2"/>
+            <node ref="R17" pin="2"/>
         </net>
-        <net code="5" name="Net-(IC4-Pad3)">
+        <net code="4" name="Net-(IC4-Pad3)">
             <node ref="R18" pin="2"/>
             <node ref="IC4" pin="3"/>
         </net>
-        <net code="6" name="Net-(C4-Pad1)">
-            <node ref="IC1" pin="14"/>
-            <node ref="C4" pin="1"/>
+        <net code="5" name="Net-(IC1-Pad4)">
+            <node ref="IC1" pin="4"/>
+            <node ref="M1" pin="2"/>
         </net>
-        <net code="7" name="Net-(C10-Pad1)">
-            <node ref="IC4" pin="2"/>
-            <node ref="IC4" pin="6"/>
-            <node ref="R18" pin="1"/>
-            <node ref="C10" pin="1"/>
-            <node ref="R19" pin="2"/>
+        <net code="6" name="Net-(CONN3-Pad3)">
+            <node ref="CONN3" pin="3"/>
+            <node ref="R2" pin="1"/>
         </net>
-        <net code="8" name="Net-(D1-Pad1)">
-            <node ref="IC4" pin="8"/>
-            <node ref="D1" pin="1"/>
-            <node ref="L1" pin="2"/>
+        <net code="7" name="+3.3V">
+            <node ref="R7" pin="1"/>
+            <node ref="R15" pin="1"/>
+            <node ref="R6" pin="1"/>
+            <node ref="R1" pin="1"/>
+            <node ref="R5" pin="1"/>
+            <node ref="R4" pin="1"/>
+            <node ref="R13" pin="1"/>
+            <node ref="R14" pin="1"/>
+            <node ref="R12" pin="1"/>
+            <node ref="R11" pin="1"/>
+            <node ref="R8" pin="1"/>
+            <node ref="C6" pin="1"/>
+            <node ref="IC2" pin="5"/>
+            <node ref="CONN4" pin="1"/>
         </net>
-        <net code="9" name="Net-(IC1-Pad5)">
+        <net code="8" name="Net-(IC1-Pad5)">
             <node ref="IC1" pin="5"/>
             <node ref="M2" pin="2"/>
         </net>
-        <net code="10" name="Net-(IC1-Pad7)">
+        <net code="9" name="Net-(IC1-Pad7)">
             <node ref="IC1" pin="7"/>
             <node ref="M2" pin="1"/>
         </net>
-        <net code="11" name="Net-(IC1-Pad4)">
-            <node ref="M1" pin="2"/>
-            <node ref="IC1" pin="4"/>
+        <net code="10" name="+BATT">
+            <node ref="R9" pin="2"/>
+            <node ref="J3" pin="3"/>
+            <node ref="IC2" pin="1"/>
+            <node ref="CONN2" pin="1"/>
+            <node ref="C2" pin="1"/>
         </net>
-        <net code="12" name="Net-(IC1-Pad2)">
-            <node ref="IC1" pin="2"/>
+        <net code="11" name="Net-(IC1-Pad2)">
             <node ref="M1" pin="1"/>
+            <node ref="IC1" pin="2"/>
         </net>
-        <net code="13" name="/Distance">
-            <node ref="CONN4" pin="16"/>
+        <net code="12" name="/Distance">
             <node ref="R3" pin="1"/>
             <node ref="R2" pin="2"/>
+            <node ref="CONN4" pin="16"/>
         </net>
-        <net code="14" name="/IR5">
+        <net code="13" name="/IR5">
             <node ref="CONN4" pin="14"/>
             <node ref="IR5" pin="3"/>
             <node ref="R15" pin="2"/>
         </net>
-        <net code="15" name="/IR4">
-            <node ref="CONN4" pin="12"/>
-            <node ref="R13" pin="2"/>
+        <net code="14" name="/IR4">
             <node ref="IR4" pin="3"/>
+            <node ref="R13" pin="2"/>
+            <node ref="CONN4" pin="12"/>
         </net>
-        <net code="16" name="/IR3">
-            <node ref="IR3" pin="3"/>
-            <node ref="R11" pin="2"/>
+        <net code="15" name="/IR3">
             <node ref="CONN4" pin="10"/>
+            <node ref="R11" pin="2"/>
+            <node ref="IR3" pin="3"/>
         </net>
-        <net code="17" name="/IR2">
+        <net code="16" name="/IR2">
             <node ref="R7" pin="2"/>
-            <node ref="CONN4" pin="8"/>
             <node ref="IR2" pin="3"/>
+            <node ref="CONN4" pin="8"/>
         </net>
-        <net code="18" name="/IR1">
+        <net code="17" name="/IR1">
+            <node ref="CONN4" pin="6"/>
             <node ref="R4" pin="2"/>
             <node ref="IR1" pin="3"/>
-            <node ref="CONN4" pin="6"/>
         </net>
-        <net code="19" name="/Right_Motor_2">
+        <net code="18" name="/Right_Motor_2">
             <node ref="CONN5" pin="7"/>
             <node ref="IC1" pin="10"/>
         </net>
-        <net code="20" name="/Right_Motor_1">
-            <node ref="IC1" pin="9"/>
+        <net code="19" name="/Right_Motor_1">
             <node ref="CONN5" pin="5"/>
+            <node ref="IC1" pin="9"/>
         </net>
-        <net code="21" name="/Left_Motor_2">
-            <node ref="IC1" pin="15"/>
+        <net code="20" name="/Left_Motor_2">
             <node ref="CONN5" pin="3"/>
+            <node ref="IC1" pin="15"/>
         </net>
-        <net code="22" name="/Left_Motor_1">
-            <node ref="IC1" pin="16"/>
+        <net code="21" name="/Left_Motor_1">
             <node ref="CONN5" pin="1"/>
+            <node ref="IC1" pin="16"/>
         </net>
-        <net code="23" name="Net-(IR5-Pad1)">
-            <node ref="IR5" pin="1"/>
-            <node ref="R14" pin="2"/>
+        <net code="22" name="Net-(IC1-Pad1)">
+            <node ref="R5" pin="2"/>
+            <node ref="IC1" pin="1"/>
+        </net>
+        <net code="23" name="Net-(C4-Pad1)">
+            <node ref="IC1" pin="14"/>
+            <node ref="C4" pin="1"/>
         </net>
         <net code="24" name="Net-(C5-Pad1)">
-            <node ref="C5" pin="1"/>
             <node ref="IC1" pin="11"/>
+            <node ref="C5" pin="1"/>
         </net>
         <net code="25" name="Net-(IR1-Pad1)">
             <node ref="R1" pin="2"/>
             <node ref="IR1" pin="1"/>
         </net>
-        <net code="26" name="+BATT">
-            <node ref="CONN2" pin="1"/>
-            <node ref="IC2" pin="1"/>
-            <node ref="R9" pin="2"/>
-            <node ref="J3" pin="3"/>
-            <node ref="C2" pin="1"/>
+        <net code="26" name="Net-(IC2-Pad3)">
+            <node ref="IC2" pin="3"/>
+            <node ref="R9" pin="1"/>
+            <node ref="J1" pin="2"/>
         </net>
-        <net code="27" name="Net-(CONN3-Pad3)">
-            <node ref="CONN3" pin="3"/>
-            <node ref="R2" pin="1"/>
+        <net code="27" name="+5V">
+            <node ref="J3" pin="1"/>
+            <node ref="CONN1" pin="2"/>
+            <node ref="CONN4" pin="2"/>
+            <node ref="C7" pin="1"/>
+            <node ref="IC3" pin="5"/>
+            <node ref="CONN3" pin="1"/>
         </net>
         <net code="28" name="/Servo">
             <node ref="CONN5" pin="4"/>
             <node ref="CONN1" pin="3"/>
         </net>
-        <net code="29" name="GND">
-            <node ref="CONN3" pin="2"/>
-            <node ref="CONN2" pin="2"/>
-            <node ref="C4" pin="2"/>
-            <node ref="CONN5" pin="2"/>
-            <node ref="C6" pin="2"/>
-            <node ref="IC4" pin="5"/>
-            <node ref="IC4" pin="1"/>
+        <net code="29" name="Net-(C8-Pad1)">
+            <node ref="L1" pin="1"/>
+            <node ref="C8" pin="1"/>
+            <node ref="R19" pin="1"/>
+            <node ref="J3" pin="2"/>
+        </net>
+        <net code="30" name="Net-(IC3-Pad3)">
+            <node ref="IC3" pin="3"/>
+            <node ref="J2" pin="2"/>
+            <node ref="R10" pin="1"/>
+        </net>
+        <net code="31" name="Net-(IR4-Pad1)">
+            <node ref="IR4" pin="1"/>
+            <node ref="R12" pin="2"/>
+        </net>
+        <net code="32" name="Net-(IR3-Pad1)">
+            <node ref="IR3" pin="1"/>
+            <node ref="R8" pin="2"/>
+        </net>
+        <net code="33" name="Net-(IR2-Pad1)">
+            <node ref="R6" pin="2"/>
+            <node ref="IR2" pin="1"/>
+        </net>
+        <net code="34" name="GND">
             <node ref="C2" pin="2"/>
-            <node ref="IC2" pin="2"/>
-            <node ref="C11" pin="2"/>
-            <node ref="R16" pin="1"/>
-            <node ref="C10" pin="2"/>
+            <node ref="IC4" pin="5"/>
+            <node ref="C6" pin="2"/>
+            <node ref="IR4" pin="2"/>
+            <node ref="J1" pin="1"/>
+            <node ref="IR3" pin="2"/>
+            <node ref="IC3" pin="2"/>
             <node ref="C8" pin="2"/>
             <node ref="IC1" pin="13"/>
+            <node ref="C3" pin="2"/>
+            <node ref="IC2" pin="2"/>
             <node ref="IC1" pin="6"/>
-            <node ref="C1" pin="1"/>
             <node ref="IC1" pin="3"/>
+            <node ref="IC4" pin="1"/>
+            <node ref="IR4" pin="4"/>
+            <node ref="IR5" pin="4"/>
+            <node ref="IR5" pin="2"/>
+            <node ref="IR3" pin="4"/>
             <node ref="IR2" pin="4"/>
             <node ref="IR2" pin="2"/>
             <node ref="CONN1" pin="1"/>
             <node ref="C7" pin="2"/>
-            <node ref="CONN4" pin="4"/>
-            <node ref="C3" pin="2"/>
-            <node ref="IC3" pin="2"/>
-            <node ref="IR4" pin="4"/>
-            <node ref="IR4" pin="2"/>
-            <node ref="IR3" pin="4"/>
-            <node ref="IR3" pin="2"/>
-            <node ref="J2" pin="1"/>
-            <node ref="J1" pin="1"/>
-            <node ref="IR5" pin="4"/>
-            <node ref="IR5" pin="2"/>
+            <node ref="CONN2" pin="2"/>
+            <node ref="CONN3" pin="2"/>
+            <node ref="C1" pin="1"/>
+            <node ref="R3" pin="2"/>
             <node ref="IR1" pin="4"/>
             <node ref="IR1" pin="2"/>
-            <node ref="R3" pin="2"/>
+            <node ref="R16" pin="1"/>
+            <node ref="C10" pin="2"/>
+            <node ref="CONN5" pin="2"/>
+            <node ref="CONN4" pin="4"/>
+            <node ref="J2" pin="1"/>
+            <node ref="C11" pin="2"/>
+            <node ref="C4" pin="2"/>
         </net>
-        <net code="30" name="+3.3V">
-            <node ref="R1" pin="1"/>
-            <node ref="R7" pin="1"/>
-            <node ref="R8" pin="1"/>
-            <node ref="R11" pin="1"/>
-            <node ref="R12" pin="1"/>
-            <node ref="R14" pin="1"/>
-            <node ref="CONN4" pin="1"/>
-            <node ref="R5" pin="1"/>
-            <node ref="R15" pin="1"/>
-            <node ref="R13" pin="1"/>
-            <node ref="IC2" pin="5"/>
-            <node ref="C6" pin="1"/>
-            <node ref="R4" pin="1"/>
-            <node ref="R6" pin="1"/>
+        <net code="35" name="Net-(IR5-Pad1)">
+            <node ref="R14" pin="2"/>
+            <node ref="IR5" pin="1"/>
         </net>
-        <net code="31" name="Net-(IC2-Pad3)">
-            <node ref="J1" pin="2"/>
-            <node ref="IC2" pin="3"/>
-            <node ref="R9" pin="1"/>
-        </net>
-        <net code="32" name="Net-(IC3-Pad3)">
-            <node ref="R10" pin="1"/>
-            <node ref="IC3" pin="3"/>
-            <node ref="J2" pin="2"/>
-        </net>
-        <net code="33" name="+5V">
-            <node ref="CONN1" pin="2"/>
-            <node ref="J3" pin="1"/>
-            <node ref="CONN3" pin="1"/>
-            <node ref="C7" pin="1"/>
-            <node ref="CONN4" pin="2"/>
-            <node ref="IC3" pin="5"/>
-        </net>
-        <net code="34" name="Net-(IR2-Pad1)">
-            <node ref="IR2" pin="1"/>
-            <node ref="R6" pin="2"/>
-        </net>
-        <net code="35" name="Net-(IR4-Pad1)">
-            <node ref="R12" pin="2"/>
-            <node ref="IR4" pin="1"/>
-        </net>
-        <net code="36" name="Net-(IR3-Pad1)">
-            <node ref="IR3" pin="1"/>
-            <node ref="R8" pin="2"/>
+        <net code="36" name="+9V">
+            <node ref="IC4" pin="7"/>
+            <node ref="IC3" pin="1"/>
+            <node ref="C3" pin="1"/>
+            <node ref="C9" pin="1"/>
+            <node ref="R17" pin="1"/>
+            <node ref="D1" pin="2"/>
+            <node ref="IC1" pin="12"/>
+            <node ref="C1" pin="2"/>
+            <node ref="C5" pin="2"/>
+            <node ref="R10" pin="2"/>
         </net>
         <net code="37" name="Net-(CONN5-Pad9)">
             <node ref="CONN5" pin="9"/>
@@ -861,20 +863,14 @@
         <net code="62" name="Net-(CONN5-Pad20)">
             <node ref="CONN5" pin="20"/>
         </net>
-        <net code="63" name="Net-(IC3-Pad4)">
-            <node ref="IC3" pin="4"/>
-        </net>
-        <net code="64" name="Net-(IC2-Pad4)">
+        <net code="63" name="Net-(IC2-Pad4)">
             <node ref="IC2" pin="4"/>
+        </net>
+        <net code="64" name="Net-(IC3-Pad4)">
+            <node ref="IC3" pin="4"/>
         </net>
         <net code="65" name="Net-(C11-Pad1)">
             <node ref="C11" pin="1"/>
-        </net>
-        <net code="66" name="Net-(R19-Pad1)">
-            <node ref="R19" pin="1"/>
-        </net>
-        <net code="67" name="Net-(C8-Pad1)">
-            <node ref="C8" pin="1"/>
         </net>
     </nets>
 </export>
