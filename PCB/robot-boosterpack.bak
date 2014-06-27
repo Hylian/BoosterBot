@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:robot-boosterpack
 LIBS:robot-boosterpack-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -108,6 +108,7 @@ F 0 "CONN3" H 2100 2300 60  0000 C CNN
 F 1 "IR" H 2200 2700 60  0000 C CNN
 F 2 "" H 2200 2700 60  0000 C CNN
 F 3 "" H 2200 2700 60  0000 C CNN
+F 4 "S5751-03-ND" H 2150 2500 60  0001 C CNN "Digikey #"
 	1    2150 2500
 	1    0    0    -1  
 $EndComp
