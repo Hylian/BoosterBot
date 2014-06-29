@@ -1,0 +1,402 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/29/2014 2:14:15 AM
+
+BeginCmp
+TimeStamp = /53A79C6C;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8AF20;
+Reference = C2;
+ValeurCmp = 2.2 uF 6.3V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9EDDD;
+Reference = C3;
+ValeurCmp = 1 uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A795DA;
+Reference = C4;
+ValeurCmp = 2.2uF 6.3V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A7958C;
+Reference = C5;
+ValeurCmp = 0.01uF 16V X7R;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8B338;
+Reference = C6;
+ValeurCmp = 4.7 uF ESR 0.2;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA20BE;
+Reference = C7;
+ValeurCmp = 4.7 uF ESR 0.2;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9B5D;
+Reference = C8;
+ValeurCmp = 22uF;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8E65A;
+Reference = C9;
+ValeurCmp = 39 pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8DED5;
+Reference = C10;
+ValeurCmp = 1 uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ADB84E;
+Reference = C11;
+ValeurCmp = 68uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA35CF;
+Reference = CONN1;
+ValeurCmp = SERVO;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A73812;
+Reference = CONN2;
+ValeurCmp = 3AAA-BATTERY;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A7290D;
+Reference = CONN3;
+ValeurCmp = IR;
+IdModule  = HEADER_2mm_1x3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A20530;
+Reference = CONN4;
+ValeurCmp = BOOSTERPACK_LEFT;
+IdModule  = PIN_ARRAY_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A205F9;
+Reference = CONN5;
+ValeurCmp = BOOSTERPACK_RIGHT;
+IdModule  = PIN_ARRAY_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACF56A;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACF577;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACF57D;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8D376;
+Reference = D4;
+ValeurCmp = DIODESCH;
+IdModule  = DO-214AA(SMB);
+EndCmp
+
+BeginCmp
+TimeStamp = /53A71BC8;
+Reference = IC1;
+ValeurCmp = DRV8833;
+IdModule  = tssop-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8A5F0;
+Reference = IC2;
+ValeurCmp = TPS77033;
+IdModule  = sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9EB1D;
+Reference = IC3;
+ValeurCmp = TPS77050;
+IdModule  = sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8C25C;
+Reference = IC4;
+ValeurCmp = LMR61428;
+IdModule  = MSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A78E80;
+Reference = IR1;
+ValeurCmp = QRE1113;
+IdModule  = QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8668;
+Reference = IR2;
+ValeurCmp = QRE1113;
+IdModule  = QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8DF2;
+Reference = IR3;
+ValeurCmp = QRE1113;
+IdModule  = QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8E1C;
+Reference = IR4;
+ValeurCmp = QRE1113;
+IdModule  = QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA90CA;
+Reference = IR5;
+ValeurCmp = QRE1113;
+IdModule  = QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB853C;
+Reference = J1;
+ValeurCmp = 3.3V Jumper;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ABA6DF;
+Reference = J2;
+ValeurCmp = 5V Jumper;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB4F38;
+Reference = J3;
+ValeurCmp = 9V Jumper;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8C8F9;
+Reference = L1;
+ValeurCmp = 6.8 uH;
+IdModule  = INDUCTOR_SRN6045;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A71E5E;
+Reference = M1;
+ValeurCmp = MOTOR;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A71E6D;
+Reference = M2;
+ValeurCmp = MOTOR;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A79029;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A7892C;
+Reference = R2;
+ValeurCmp = 22k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A78939;
+Reference = R3;
+ValeurCmp = 43k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A790C7;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A79B05;
+Reference = R5;
+ValeurCmp = 22k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA866E;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8680;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8DF8;
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB93AA;
+Reference = R9;
+ValeurCmp = 22k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ABA34B;
+Reference = R10;
+ValeurCmp = 22k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8E0A;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8E22;
+Reference = R12;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA8E34;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA90D0;
+Reference = R14;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA90E2;
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACF596;
+Reference = R16;
+ValeurCmp = 165;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACF59D;
+Reference = R17;
+ValeurCmp = 261;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACF5A4;
+Reference = R18;
+ValeurCmp = 453;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8E604;
+Reference = R19;
+ValeurCmp = 23.2k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8E56D;
+Reference = R20;
+ValeurCmp = 150k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8E082;
+Reference = R21;
+ValeurCmp = 200k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AC05A6;
+Reference = R22;
+ValeurCmp = 49.9;
+IdModule  = SM0603;
+EndCmp
+
+EndListe
