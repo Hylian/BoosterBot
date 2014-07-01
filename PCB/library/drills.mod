@@ -1,19 +1,19 @@
-PCBNEW-LibModule-V1  7/1/2014 1:21:31 AM
+PCBNEW-LibModule-V1  7/1/2014 1:18:00 AM
 # encoding utf-8
 Units mm
 $INDEX
 1pin
 $EndINDEX
 $MODULE 1pin
-Po 0 0 0 15 53B252A9 00000000 ~~
+Po 0 0 0 15 53B2527F 00000000 ~~
 Li 1pin
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 Sc 0
 AR 1pin
 Op 0 0 0
-T0 5.75 -5.25 1.016 1.016 0 0.254 N V 21 N "GEARMOTOR"
-T1 3 8.5 1.016 1.016 0 0.254 N I 21 N "P***"
+T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "GEARMOTOR"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
 DS 16.5 4.25 18 4.25 0.15 21
 DS 0 4.25 1.5 4.25 0.15 21
 DS 1.5 7.25 1.5 -4.25 0.15 21

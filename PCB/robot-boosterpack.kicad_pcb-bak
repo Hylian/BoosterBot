@@ -3,7 +3,7 @@
   (general
     (links 120)
     (no_connects 120)
-    (area 26.270227 24.870834 228.1936 139.115001)
+    (area 169.164999 65.354999 228.1936 161.571001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -53,11 +53,11 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
+    (pad_size 3 3)
+    (pad_drill 2.39)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFBFF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -1596,7 +1596,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFB4)
-    (at 181.864 76.2)
+    (at 180.848 73.152)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53A71E5E)
