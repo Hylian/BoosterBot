@@ -747,7 +747,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBE70)
-    (at 204 147 270)
+    (at 204 152 270)
     (path /53AA8DF8)
     (attr smd)
     (fp_text reference R8 (at 0 0 270) (layer B.SilkS)
@@ -776,7 +776,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBE7A)
-    (at 191 143 180)
+    (at 191 148 180)
     (path /53AA8680)
     (attr smd)
     (fp_text reference R7 (at 0 0 180) (layer B.SilkS)
@@ -805,7 +805,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBE84)
-    (at 196 147 90)
+    (at 196 152 90)
     (path /53AA8E0A)
     (attr smd)
     (fp_text reference R11 (at 0 0 90) (layer B.SilkS)
@@ -834,7 +834,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBE8E)
-    (at 209 141)
+    (at 209 146)
     (path /53AA8E22)
     (attr smd)
     (fp_text reference R12 (at 0 0) (layer B.SilkS)
@@ -863,7 +863,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBE98)
-    (at 191 141 180)
+    (at 191 146 180)
     (path /53AA866E)
     (attr smd)
     (fp_text reference R6 (at 0 0 180) (layer B.SilkS)
@@ -892,7 +892,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEA2)
-    (at 173.435 134.125 90)
+    (at 173.435 146.125 90)
     (path /53ACF5A4)
     (attr smd)
     (fp_text reference R18 (at 0 0 90) (layer F.SilkS)
@@ -921,7 +921,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBEAC)
-    (at 209 143 180)
+    (at 209 148 180)
     (path /53AA8E34)
     (attr smd)
     (fp_text reference R13 (at 0 0 180) (layer B.SilkS)
@@ -950,7 +950,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBEB6)
-    (at 227 141)
+    (at 227 146)
     (path /53AA90D0)
     (attr smd)
     (fp_text reference R14 (at 0 0) (layer B.SilkS)
@@ -979,7 +979,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBEC0)
-    (at 227 143 180)
+    (at 227 148 180)
     (path /53AA90E2)
     (attr smd)
     (fp_text reference R15 (at 0 0 180) (layer B.SilkS)
@@ -1095,7 +1095,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEE8)
-    (at 183.467 134.125 90)
+    (at 183.467 146.125 90)
     (path /53ACF596)
     (attr smd)
     (fp_text reference R16 (at 0 0 90) (layer F.SilkS)
@@ -1124,7 +1124,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEF2)
-    (at 178.451 134.125 90)
+    (at 178.451 146.125 90)
     (path /53ACF59D)
     (attr smd)
     (fp_text reference R17 (at 0 0 90) (layer F.SilkS)
@@ -1182,7 +1182,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBF06)
-    (at 202 141 180)
+    (at 202 146 180)
     (path /53A7892C)
     (attr smd)
     (fp_text reference R2 (at 0 0 180) (layer F.SilkS)
@@ -1211,7 +1211,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBF10)
-    (at 198 141 180)
+    (at 198 146 180)
     (path /53A78939)
     (attr smd)
     (fp_text reference R3 (at 0 0 180) (layer F.SilkS)
@@ -1298,7 +1298,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53B362E3)
-    (at 173 141 180)
+    (at 173 146 180)
     (path /53A79029)
     (attr smd)
     (fp_text reference R1 (at 0 0 180) (layer B.SilkS)
@@ -1327,7 +1327,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBF38)
-    (at 173 143 180)
+    (at 173 148 180)
     (path /53A790C7)
     (attr smd)
     (fp_text reference R4 (at 0 0 180) (layer B.SilkS)
@@ -1385,7 +1385,7 @@
   )
 
   (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 53AFBF94)
-    (at 173.435 128.125 90)
+    (at 173.435 140.125 90)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /53AB4F38)
@@ -1420,14 +1420,14 @@
   )
 
   (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 53AFBFA0)
-    (at 225 137 180)
+    (at 227 139 270)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /53AA35CF)
-    (fp_text reference CONN1 (at 0.254 -2.159 180) (layer F.SilkS)
+    (fp_text reference CONN1 (at 0.254 -2.159 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
-    (fp_text value SERVO (at 0 -2.159 180) (layer F.SilkS) hide
+    (fp_text value SERVO (at 0 -2.159 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
     (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.1524))
@@ -1435,15 +1435,15 @@
     (fp_line (start 3.81 -1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start 3.81 1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.1524))
-    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.524 1.524) (drill 1.016)
+    (pad 1 thru_hole rect (at -2.54 0 270) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 16 GND)
     )
-    (pad 2 thru_hole circle (at 0 0 180) (size 1.524 1.524) (drill 1.016)
+    (pad 2 thru_hole circle (at 0 0 270) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 2 +5V)
     )
-    (pad 3 thru_hole circle (at 2.54 0 180) (size 1.524 1.524) (drill 1.016)
+    (pad 3 thru_hole circle (at 2.54 0 270) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 15 /Servo)
     )
@@ -1455,7 +1455,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFAA)
-    (at 178.451 129.125 90)
+    (at 178.451 141.125 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53ABA6DF)
@@ -1545,7 +1545,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFC8)
-    (at 195 137 180)
+    (at 201 136 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53A73812)
@@ -1575,7 +1575,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFD2)
-    (at 183.467 129.125 90)
+    (at 183.467 141.125 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53AB853C)
@@ -1843,7 +1843,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC03B)
-    (at 183.467 137.125 270)
+    (at 183.467 149.125 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF56A)
@@ -1887,7 +1887,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC057)
-    (at 178.451 137.125 270)
+    (at 178.451 149.125 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF577)
@@ -1931,7 +1931,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53B2BBB1)
-    (at 173.435 137.125 270)
+    (at 173.435 149.125 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF57D)
@@ -1994,7 +1994,7 @@
   )
 
   (module HEADER_2mm_1x3 (layer F.Cu) (tedit 53AFB400) (tstamp 53AFC084)
-    (at 200 141)
+    (at 200 146)
     (path /53A7290D)
     (fp_text reference CONN3 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2066,7 +2066,7 @@
   )
 
   (module QRE1113GR (layer B.Cu) (tedit 53B360E9) (tstamp 53AFBF6C)
-    (at 200 147 90)
+    (at 200 152 90)
     (path /53AA8DF2)
     (fp_text reference IR3 (at 0 2.75 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -2099,7 +2099,7 @@
   )
 
   (module QRE1113GR (layer B.Cu) (tedit 53B360E9) (tstamp 53B35FDD)
-    (at 209 147 90)
+    (at 209 152 90)
     (path /53AA8E1C)
     (fp_text reference IR4 (at 0 2.75 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -2132,7 +2132,7 @@
   )
 
   (module QRE1113GR (layer B.Cu) (tedit 53B360E9) (tstamp 53AFBF5E)
-    (at 227 147 90)
+    (at 227 152 90)
     (path /53AA90CA)
     (fp_text reference IR5 (at 0 2.75 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -2165,7 +2165,7 @@
   )
 
   (module QRE1113GR (layer B.Cu) (tedit 53B360E9) (tstamp 53AFBF88)
-    (at 191 147 90)
+    (at 191 152 90)
     (path /53AA8668)
     (fp_text reference IR2 (at 0 2.75 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -2198,7 +2198,7 @@
   )
 
   (module QRE1113GR (layer B.Cu) (tedit 53B360E9) (tstamp 53AFBF50)
-    (at 173 147 90)
+    (at 173 152 90)
     (path /53A78E80)
     (fp_text reference IR1 (at 0 2.75 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -2230,17 +2230,17 @@
     )
   )
 
-  (dimension 9 (width 0.3) (layer Cmts.User)
-    (gr_text "9.000 mm" (at 247.35 138.5 90) (layer Cmts.User)
+  (dimension 14 (width 0.3) (layer Cmts.User)
+    (gr_text "14.000 mm" (at 247.35 141 90) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
-    (feature1 (pts (xy 196 134) (xy 248.7 134)))
-    (feature2 (pts (xy 196 143) (xy 248.7 143)))
-    (crossbar (pts (xy 246 143) (xy 246 134)))
+    (feature1 (pts (xy 200 134) (xy 248.7 134)))
+    (feature2 (pts (xy 200 148) (xy 248.7 148)))
+    (crossbar (pts (xy 246 148) (xy 246 134)))
     (arrow1a (pts (xy 246 134) (xy 246.58642 135.126503)))
     (arrow1b (pts (xy 246 134) (xy 245.41358 135.126503)))
-    (arrow2a (pts (xy 246 143) (xy 246.58642 141.873497)))
-    (arrow2b (pts (xy 246 143) (xy 245.41358 141.873497)))
+    (arrow2a (pts (xy 246 148) (xy 246.58642 146.873497)))
+    (arrow2b (pts (xy 246 148) (xy 245.41358 146.873497)))
   )
   (dimension 74 (width 0.3) (layer Cmts.User)
     (gr_text "74.000 mm" (at 148.650001 96.999992 270) (layer Cmts.User)
@@ -2255,8 +2255,8 @@
     (arrow2b (pts (xy 150.000001 59.999992) (xy 150.586421 61.126495)))
   )
   (gr_line (start 170 60) (end 230 60) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 53B354C9))
-  (gr_line (start 230 60) (end 230 150) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 170 150) (end 230 150) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 170 60) (end 170 150) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 230 60) (end 230 155) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 170 155) (end 230 155) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 170 60) (end 170 155) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
