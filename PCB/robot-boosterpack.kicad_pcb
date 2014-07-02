@@ -892,7 +892,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEA2)
-    (at 175 90)
+    (at 175 125.56)
     (path /53ACF5A4)
     (attr smd)
     (fp_text reference R18 (at 0 0) (layer F.SilkS)
@@ -1095,7 +1095,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEE8)
-    (at 175 98)
+    (at 175 133.56)
     (path /53ACF596)
     (attr smd)
     (fp_text reference R16 (at 0 0) (layer F.SilkS)
@@ -1124,7 +1124,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEF2)
-    (at 175 94)
+    (at 175 129.56)
     (path /53ACF59D)
     (attr smd)
     (fp_text reference R17 (at 0 0) (layer F.SilkS)
@@ -1385,7 +1385,7 @@
   )
 
   (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 53AFBF94)
-    (at 181 90)
+    (at 181 125.56)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /53AB4F38)
@@ -1455,7 +1455,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFAA)
-    (at 180 94)
+    (at 180 129.56)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53ABA6DF)
@@ -1545,25 +1545,25 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFC8)
-    (at 181 136)
+    (at 185.42 137.16 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53A73812)
-    (fp_text reference CONN2 (at 0 -1.905) (layer F.SilkS)
+    (fp_text reference CONN2 (at 0 -1.905 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value 3AAA-BATTERY (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text value 3AAA-BATTERY (at 0 -1.905 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.1524))
-    (pad 1 thru_hole rect (at -1.27 0) (size 1.524 1.524) (drill 1.016)
+    (pad 1 thru_hole rect (at -1.27 0 180) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 4 +BATT)
     )
-    (pad 2 thru_hole circle (at 1.27 0) (size 1.524 1.524) (drill 1.016)
+    (pad 2 thru_hole circle (at 1.27 0 180) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 16 GND)
     )
@@ -1575,7 +1575,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFD2)
-    (at 180 98)
+    (at 180 133.56)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53AB853C)
@@ -1605,7 +1605,7 @@
   )
 
   (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B35266)
-    (at 221.59 46 270)
+    (at 221.59 109.53 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /53A205F9)
@@ -1694,8 +1694,8 @@
     )
   )
 
-  (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B35247)
-    (at 178.41 46 270)
+  (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B368B2)
+    (at 178.41 109.53 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /53A20530)
@@ -1843,7 +1843,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC03B)
-    (at 172 98 180)
+    (at 172 133.56 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF56A)
@@ -1887,7 +1887,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC057)
-    (at 172 94 180)
+    (at 172 129.56 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF577)
@@ -1931,7 +1931,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53B2BBB1)
-    (at 172 90 180)
+    (at 172 125.56 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF57D)
