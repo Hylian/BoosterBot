@@ -1095,7 +1095,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEE8)
-    (at 181.435 134.125 90)
+    (at 183.467 134.125 90)
     (path /53ACF596)
     (attr smd)
     (fp_text reference R16 (at 0 0 90) (layer F.SilkS)
@@ -1124,7 +1124,7 @@
   )
 
   (module SM0603 (layer F.Cu) (tedit 4E43A3D1) (tstamp 53AFBEF2)
-    (at 177.435 134.125 90)
+    (at 178.451 134.125 90)
     (path /53ACF59D)
     (attr smd)
     (fp_text reference R17 (at 0 0 90) (layer F.SilkS)
@@ -1455,7 +1455,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFAA)
-    (at 177.435 129.125 90)
+    (at 178.451 129.125 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53ABA6DF)
@@ -1575,7 +1575,7 @@
   )
 
   (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFD2)
-    (at 181.435 129.125 90)
+    (at 183.467 129.125 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53AB853C)
@@ -1843,7 +1843,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC03B)
-    (at 181.435 137.125 270)
+    (at 183.467 137.125 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF56A)
@@ -1887,7 +1887,7 @@
   )
 
   (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC057)
-    (at 177.435 137.125 270)
+    (at 178.451 137.125 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF577)
