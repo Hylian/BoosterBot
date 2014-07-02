@@ -463,7 +463,7 @@
   )
 
   (module SM1812 (layer B.Cu) (tedit 3D638E5E) (tstamp 53AFBE03)
-    (at 184.023 112.141)
+    (at 190.023 112.141)
     (tags "CMS SM")
     (path /53AD9B5D)
     (attr smd)
@@ -496,7 +496,7 @@
   )
 
   (module SM1206POL (layer B.Cu) (tedit 42806E4C) (tstamp 53AFBE12)
-    (at 193.548 124.841)
+    (at 199.548 124.841)
     (path /53ADB84E)
     (attr smd)
     (fp_text reference C11 (at 0 0) (layer B.SilkS)
@@ -530,7 +530,7 @@
   )
 
   (module SM0603_Capa (layer B.Cu) (tedit 5051B1EC) (tstamp 53AFBE1E)
-    (at 193.548 121.412 270)
+    (at 199.548 121.412 270)
     (path /53A8DED5)
     (attr smd)
     (fp_text reference C10 (at 0 0 540) (layer B.SilkS)
@@ -716,7 +716,7 @@
   )
 
   (module SM0603_Capa (layer B.Cu) (tedit 5051B1EC) (tstamp 53AFBE66)
-    (at 191.643 111.506 180)
+    (at 197.643 111.506 180)
     (path /53A8E65A)
     (attr smd)
     (fp_text reference C9 (at 0 0 450) (layer B.SilkS)
@@ -1066,7 +1066,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBEDE)
-    (at 195.58 121.412 90)
+    (at 201.58 121.412 90)
     (path /53AC05A6)
     (attr smd)
     (fp_text reference R22 (at 0 0 90) (layer B.SilkS)
@@ -1153,7 +1153,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBEFC)
-    (at 192.913 114.681 270)
+    (at 198.913 114.681 270)
     (path /53A8E56D)
     (attr smd)
     (fp_text reference R20 (at 0 0 270) (layer B.SilkS)
@@ -1240,7 +1240,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBF1A)
-    (at 193.548 118.364 90)
+    (at 199.548 118.364 90)
     (path /53A8E082)
     (attr smd)
     (fp_text reference R21 (at 0 0 90) (layer B.SilkS)
@@ -1269,7 +1269,7 @@
   )
 
   (module SM0603 (layer B.Cu) (tedit 4E43A3D1) (tstamp 53AFBF24)
-    (at 189.738 113.411)
+    (at 195.738 113.411)
     (path /53A8E604)
     (attr smd)
     (fp_text reference R19 (at 0 0) (layer B.SilkS)
@@ -1770,7 +1770,7 @@
   )
 
   (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B35266)
-    (at 43.18 0 270)
+    (at 221.59 46 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /53A205F9)
@@ -1860,7 +1860,7 @@
   )
 
   (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B35247)
-    (at 0 0 270)
+    (at 178.41 46 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /53A20530)
@@ -1953,7 +1953,7 @@
   )
 
   (module MSOP-8 (layer B.Cu) (tedit 516689CE) (tstamp 53AFC01F)
-    (at 189.992 118.872)
+    (at 195.992 118.872)
     (descr MSOIC-8)
     (path /53A8C25C)
     (attr smd)
@@ -2140,7 +2140,7 @@
   )
 
   (module INDUCTOR_SRN6045 (layer F.Cu) (tedit 53AFBB02) (tstamp 53AFC079)
-    (at 183.388 115.824)
+    (at 189.388 115.824)
     (path /53A8C8F9)
     (fp_text reference L1 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2186,7 +2186,7 @@
   )
 
   (module "DO-214AA(SMB)" (layer B.Cu) (tedit 50924A37) (tstamp 53AFC09C)
-    (at 185.42 127)
+    (at 191.42 127)
     (descr "DO-214AA (SMB)  PACKAGE.")
     (tags "DO-214AA SMB")
     (path /53A8D376)
