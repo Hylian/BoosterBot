@@ -1442,15 +1442,15 @@
     )
   )
 
-  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 53AFBFA0)
+  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 53B5E46A) (tstamp 53AFBFA0)
     (at 226 140 270)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /53AA35CF)
-    (fp_text reference CONN1 (at 0.254 -2.159 270) (layer F.SilkS)
+    (fp_text reference CONN1 (at 0.254 -2.159 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
-    (fp_text value SERVO (at 0 -2.159 270) (layer F.SilkS) hide
+    (fp_text value SERVO (at 0 -2.159 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
     (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.1524))
@@ -2234,12 +2234,12 @@
     )
   )
 
-  (module 0.375_Pololu_Caster (layer F.Cu) (tedit 53B5E2AE) (tstamp 53B6A813)
+  (module 0.375_Pololu_Caster (layer F.Cu) (tedit 53B5E648) (tstamp 53B6ABE3)
     (at 200 142.5)
-    (fp_text reference "3/8\" Pololu Caster" (at -62 1) (layer F.SilkS) hide
+    (fp_text reference "3/8\" Pololu Caster" (at -0.1 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VAL** (at 0 9) (layer F.SilkS) hide
+    (fp_text value VAL** (at 0.1 3.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at -6.75 0) (size 3.3 3.3) (drill 2.3)
