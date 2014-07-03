@@ -176,12 +176,12 @@
     (add_net N-000008)
   )
 
-  (module 3xAAA (layer F.Cu) (tedit 53B5D96C) (tstamp 53B4BD35)
+  (module 3xAAA (layer F.Cu) (tedit 53B5E2BC) (tstamp 53B4BD35)
     (at 200 109 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
-    (fp_text reference BATTERY (at -15 -24 180) (layer F.SilkS)
+    (fp_text reference BATTERY (at -15 -24 180) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_text value P*** (at -15 -22 180) (layer F.SilkS) hide
@@ -199,12 +199,12 @@
     )
   )
 
-  (module 1pin (layer F.Cu) (tedit 53B2527F) (tstamp 53B2BB0F)
+  (module 1pin (layer F.Cu) (tedit 53B5E2CE) (tstamp 53B2BB0F)
     (at 175 83 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
-    (fp_text reference GEARMOTOR (at 0 -3.048 90) (layer F.SilkS)
+    (fp_text reference GEARMOTOR (at 0 -3.048 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_text value P*** (at 0 2.794 90) (layer F.SilkS) hide
@@ -226,12 +226,12 @@
     )
   )
 
-  (module 1pin (layer F.Cu) (tedit 53B2527F) (tstamp 53B2BB01)
+  (module 1pin (layer F.Cu) (tedit 53B5E2D4) (tstamp 53B2BB01)
     (at 225 65 270)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
-    (fp_text reference GEARMOTOR (at 0 -3.048 270) (layer F.SilkS)
+    (fp_text reference GEARMOTOR (at 0 -3.048 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_text value P*** (at 0 2.794 270) (layer F.SilkS) hide
@@ -1407,15 +1407,15 @@
     )
   )
 
-  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 53AFBF94)
+  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 53B5E364) (tstamp 53AFBF94)
     (at 173.435 143.125 90)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /53AB4F38)
-    (fp_text reference J3 (at 0.254 -2.159 90) (layer F.SilkS)
+    (fp_text reference J3 (at 0.254 -2.159 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
-    (fp_text value "9V Jumper" (at 0 -2.159 90) (layer F.SilkS) hide
+    (fp_text value 9V (at 0 -2.159 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
     (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.1524))
@@ -1443,7 +1443,7 @@
   )
 
   (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 53AFBFA0)
-    (at 227 139 270)
+    (at 226 140 270)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /53AA35CF)
@@ -1477,15 +1477,15 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFAA)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 53B5E335) (tstamp 53AFBFAA)
     (at 178.451 144.125 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53ABA6DF)
-    (fp_text reference J2 (at 0 -1.905 90) (layer F.SilkS)
+    (fp_text reference J2 (at 0 -1.905 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value "5V Jumper" (at 0 -1.905 90) (layer F.SilkS) hide
+    (fp_text value 5V (at 0 -1.905 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -1567,26 +1567,26 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFC8)
-    (at 223.52 132.08 180)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 53B5E30E) (tstamp 53AFBFC8)
+    (at 226 131.5 270)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53A73812)
-    (fp_text reference CONN2 (at 0 -1.905 180) (layer F.SilkS)
+    (fp_text reference CONN2 (at 0 -1.905 270) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value 3AAA-BATTERY (at 0 -1.905 180) (layer F.SilkS) hide
+    (fp_text value BATTERY (at 0 -1.905 270) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1524))
     (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.1524))
-    (pad 1 thru_hole rect (at -1.27 0 180) (size 1.524 1.524) (drill 1.016)
+    (pad 1 thru_hole rect (at -1.27 0 270) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 4 +BATT)
     )
-    (pad 2 thru_hole circle (at 1.27 0 180) (size 1.524 1.524) (drill 1.016)
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
       (net 16 GND)
     )
@@ -1597,15 +1597,15 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 53AFBFD2)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 53B5E33D) (tstamp 53AFBFD2)
     (at 183.467 144.125 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /53AB853C)
-    (fp_text reference J1 (at 0 -1.905 90) (layer F.SilkS)
+    (fp_text reference J1 (at 0 -1.905 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value "3.3V Jumper" (at 0 -1.905 90) (layer F.SilkS) hide
+    (fp_text value 3.3V (at 0 -1.905 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -1627,12 +1627,12 @@
     )
   )
 
-  (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B35266)
+  (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53B5E2F9) (tstamp 53B35266)
     (at 221.59 109.53 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /53A205F9)
-    (fp_text reference CONN5 (at 0.635 -3.81 270) (layer F.SilkS)
+    (fp_text reference CONN5 (at 0.635 -3.81 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value BOOSTERPACK_RIGHT (at 0 -3.81 270) (layer F.SilkS) hide
@@ -1717,12 +1717,12 @@
     )
   )
 
-  (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53AFAEAF) (tstamp 53B368B2)
+  (module PIN_ARRAY_10x2 (layer F.Cu) (tedit 53B5E2DD) (tstamp 53B368B2)
     (at 178.41 109.53 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /53A20530)
-    (fp_text reference CONN4 (at 0.635 -3.81 270) (layer F.SilkS)
+    (fp_text reference CONN4 (at 0.635 -3.81 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value BOOSTERPACK_LEFT (at 0 -3.81 270) (layer F.SilkS) hide
@@ -1909,8 +1909,8 @@
     )
   )
 
-  (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53AFC057)
-    (at 178.451 152.125 270)
+  (module LED-0603 (layer F.Cu) (tedit 4E16AFB4) (tstamp 53B6AABE)
+    (at 178.5 152 270)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53ACF577)
@@ -2253,12 +2253,12 @@
     )
   )
 
-  (module 0.375_Pololu_Caster (layer F.Cu) (tedit 53B5DCCD) (tstamp 53B6A813)
+  (module 0.375_Pololu_Caster (layer F.Cu) (tedit 53B5E2AE) (tstamp 53B6A813)
     (at 200 142.5)
-    (fp_text reference "3/8\" Pololu Caster" (at 0 -8) (layer F.SilkS)
+    (fp_text reference "3/8\" Pololu Caster" (at -62 1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value VAL** (at 0 9) (layer F.SilkS)
+    (fp_text value VAL** (at 0 9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at -6.75 0) (size 3.3 3.3) (drill 2.3)
