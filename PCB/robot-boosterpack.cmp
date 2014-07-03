@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/29/2014 2:14:15 AM
+Cmp-Mod V01 Created by PcbNew date = 7/3/2014 5:23:47 PM
 
 BeginCmp
 TimeStamp = /53A79C6C;
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /53A8C8F9;
 Reference = L1;
 ValeurCmp = 6.8 uH;
-IdModule  = INDUCTOR_SRN6045;
+IdModule  = NR6028T100M;
 EndCmp
 
 BeginCmp
