@@ -1997,10 +1997,10 @@
     )
   )
 
-  (module HEADER_2mm_1x3 (layer F.Cu) (tedit 53AFB400) (tstamp 53AFC084)
+  (module HEADER_2mm_1x3 (layer F.Cu) (tedit 53B5E716) (tstamp 53AFC084)
     (at 200 151)
     (path /53A7290D)
-    (fp_text reference CONN3 (at 0 0) (layer F.SilkS)
+    (fp_text reference CONN3 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value IR (at 0 0) (layer F.SilkS)
