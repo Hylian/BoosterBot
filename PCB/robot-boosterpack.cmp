@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 7/3/2014 5:23:47 PM
+Cmp-Mod V01 Created by PcbNew date = 7/6/2014 10:34:20 PM
 
 BeginCmp
 TimeStamp = /53A79C6C;
@@ -151,14 +151,14 @@ BeginCmp
 TimeStamp = /53A8A5F0;
 Reference = IC2;
 ValeurCmp = TPS77033;
-IdModule  = sot23;
+IdModule  = SOT23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9EB1D;
 Reference = IC3;
 ValeurCmp = TPS77050;
-IdModule  = sot23;
+IdModule  = SOT23-5;
 EndCmp
 
 BeginCmp
