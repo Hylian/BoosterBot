@@ -1,6 +1,6 @@
-update=7/3/2014 5:22:53 PM
+update=7/8/2014 4:33:26 PM
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -46,14 +46,19 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=robot-boosterpack
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=2.390000000000
-PadDrillOvalY=2.390000000000
-PadSizeH=3.000000000000
-PadSizeV=3.000000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=0.508000000000
+PadSizeV=0.762000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -62,10 +67,11 @@ ModuleTextSizeH=1.000000000000
 ModuleTextSizeThickness=0.150000000000
 SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
+DrawSegmentWidth=0.600000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
+LibDir=
 LibName1=capacitors
 LibName2=connectors_molex_serial_53047-A123
 LibName3=dip_sockets
@@ -96,9 +102,4 @@ LibName27=library/qre1113gr
 LibName28=library/inductor_srn6045
 LibName29=library/drills
 LibName30=library/inductor_nr6028t
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=library/banner
