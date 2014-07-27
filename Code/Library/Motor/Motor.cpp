@@ -71,7 +71,7 @@ void setVelocity(int16_t velocity)
 	if(!(-255 <= velocity && velocity <= 255))
 		return;
 
-	_direction = (_velocity >= 0) ? FORWARD : REVERSE;
+	_direction = (velocity >= 0) ? FORWARD : REVERSE;
 	setDirection(_direction);
 
 	_speed = abs(velocity);

@@ -15,12 +15,12 @@ class Motor
 {
   public:
 	Motor(uint16_t forwardPin, uint16_t reversePin, bool hardBrake)
-    void setSpeed(uint8_t speed);
-    void setDirection(motor_directions_t direction);
+    	void setSpeed(uint8_t speed);
+    	void setDirection(motor_directions_t direction);
 	void setHardBrake(bool hardBrake);
 	void setVelocity(int16_t velocity);
   private:
-    uint16_t _pin;
+    	uint16_t _pin, _forwardPin, _reversePin;
 	motor_directions_t _direction;
 	uint8_t _speed;
 	bool _hardBrake;
