@@ -21,7 +21,7 @@ Motor::Motor(uint16_t forwardPin, uint16_t reversePin, bool hardBrake)
 	pinMode(_reversePin, OUTPUT);
 }
 
-void setSpeed(uint8_t speed)
+void Motor::setSpeed(uint8_t speed)
 {
 	_speed = speed;
 	analogWrite(_pin, _speed);
@@ -37,7 +37,7 @@ void setSpeed(uint8_t speed)
 	return;
 }
 
-void setDirection(motor_directions_t direction)
+void Motor::setDirection(motor_directions_t direction)
 {
 	_direction = direction;
 	_pin = (_direction == FORWARD) ? _forwardPin : _reversePin;
@@ -51,7 +51,7 @@ void setDirection(motor_directions_t direction)
 	return;
 }
 
-void setHardBrake(bool hardBrake)
+void Motor::setHardBrake(bool hardBrake)
 {
 	if(_hardBrake != hardBrake)
 	{
@@ -66,7 +66,7 @@ void setHardBrake(bool hardBrake)
 	return;
 }
 
-void setVelocity(int16_t velocity)
+void Motor::setVelocity(int16_t velocity)
 {
 	if(!(-255 <= velocity && velocity <= 255))
 		return;

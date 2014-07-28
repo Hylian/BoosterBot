@@ -14,7 +14,7 @@ enum motor_directions_t {FORWARD, REVERSE};
 class Motor
 {
   public:
-	Motor(uint16_t forwardPin, uint16_t reversePin, bool hardBrake)
+	Motor(uint16_t forwardPin, uint16_t reversePin, bool hardBrake);
     	void setSpeed(uint8_t speed);
     	void setDirection(motor_directions_t direction);
 	void setHardBrake(bool hardBrake);
