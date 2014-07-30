@@ -3,7 +3,7 @@
 
 double Setpoint, prevInput, Input, Output;
 
-PID motorPID(&Input, &Output, &Setpoint, 0.1, 0.05, 0.007, DIRECT);
+PID motorPID(&Input, &Output, &Setpoint, 0.1, 0.03, 0.01, DIRECT);
 
 Motor leftMotor(37, 38, true);
 Motor rightMotor(40, 39, true);
