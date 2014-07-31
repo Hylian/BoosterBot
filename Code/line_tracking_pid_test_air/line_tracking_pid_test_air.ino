@@ -1,6 +1,8 @@
 #include "Motor.h"
 #include "PID_v1.h"
 #include "RunningAverage.h"
+#include <SPI.h>
+#include <AIR430BoostFCC.h>
 
 double Setpoint, prevInput, Input, Output;
 
@@ -12,13 +14,9 @@ uint32_t tempValue;
 
 const uint8_t sensorPin[5] = {23, 24, 25, 26, 27};
 
-const uint8_t speed = 127;
+const uint8_t speed = 66;
 
-PID linePID(&Input, &Output, &Setpoint, 50, 5, 13, DIRECT);
-
-//50 5 13
-//50 0 13
-//35  2 1
+PID linePID(&Input, &Output, &Setpoint, 20, 0, 0, DIRECT);
 
 RunningAverage RA0(30);
 RunningAverage RA1(30);
@@ -28,6 +26,15 @@ RunningAverage RA4(30);
 
 Motor leftMotor(37, 38, true);
 Motor rightMotor(40, 39, true);
+
+struct dataPacket
+{
+  uint8_t Kp;
+  uint8_t Ki;
+  uint8_t Kd;
+};
+
+struct dataPacket data;
 
 void calibrate()
 {
@@ -67,7 +74,7 @@ void calibrate()
         
         for(char i = 0; i < 5; i++)
         {
-          avgValues[i] = (minValues[i] + maxValues[i])/2;
+          avgValues[i] = (2*minValues[i] + 3*maxValues[i])/5;
         }
         
         Serial.println("Calibration complete!");
@@ -202,16 +209,9 @@ void calculateError()
 		Input = -1.0;
 	else if(!sensorBool[1] && !sensorBool[2] && sensorBool[3])
 		Input = -2.0;
-        else if(sensorBool[0])
-                Input = 3.0;
-        else if(sensorBool[4])
-                Input = -3.0;
 	else if(!lostInput)
         {
-          if(Input < 0)
-            Input = prevInput - 1;
-          else
-            Input = prevInput + 1;
+          Input = prevInput;
           lostInput = true;
           return;
         }
@@ -235,9 +235,10 @@ void setup()
 	rightMotor.setVelocity(0);
         calibrate();
 	linePID.SetMode(AUTOMATIC);
-	linePID.SetOutputLimits(-127, 127);
+	linePID.SetOutputLimits(-100, 100);
         leftMotor.setVelocity(speed);
 	rightMotor.setVelocity(speed);
+        Radio.begin(0x01, CHANNEL_1, POWER_MAX);
 
 }
 
@@ -249,11 +250,16 @@ void loop()
 	leftMotor.setVelocity(speed - Output);
 	rightMotor.setVelocity(speed + Output);
 	//leftMotor.setVelocity(0);
-	//rightMotor.setVelocity(0);        
+	//rightMotor.setVelocity(0);
+        
+        if(Radio.receiverOn((unsigned char*)&data, sizeof(data), 10) > 0)
+        {
+          linePID.SetTunings(data.Kp, data.Ki, data.Kd);
+        }
+        
         
         //Serial.print("Output: ");
         //Serial.println(Output);
-        /*
         Serial.print("Reading: ");
         Serial.print(sensorBool[0]);
         Serial.print(" ");
@@ -264,7 +270,6 @@ void loop()
         Serial.print(sensorBool[3]);
         Serial.print(" ");
         Serial.println(sensorBool[4]);
-        */
         //Serial.print("Raw Input: ");
         //Serial.print(analogRead(sensorPin[1]));
         //Serial.print(" ");

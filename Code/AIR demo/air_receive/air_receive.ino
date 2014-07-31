@@ -21,4 +21,5 @@ void loop()
   {
     Serial.println(data.distance);
   }
+  delay(50);
 }
