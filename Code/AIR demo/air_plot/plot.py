@@ -17,7 +17,7 @@ def animate():
 			rect.set_height(int(ser.readline()));
 			fig.canvas.draw()
 
-ser = serial.Serial(7)
+ser = serial.Serial(2)
 print ser.name
 plt = setup_backend()
 fig = plt.figure()

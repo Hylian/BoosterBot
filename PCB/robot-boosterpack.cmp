@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 7/6/2014 10:34:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/16/2014 12:55:33 AM
 
 BeginCmp
 TimeStamp = /53A79C6C;
@@ -136,6 +136,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53A8D376;
 Reference = D4;
+ValeurCmp = DIODESCH;
+IdModule  = DO-214AA(SMB);
+EndCmp
+
+BeginCmp
+TimeStamp = /53EEE106;
+Reference = D5;
 ValeurCmp = DIODESCH;
 IdModule  = DO-214AA(SMB);
 EndCmp
@@ -353,21 +360,21 @@ EndCmp
 BeginCmp
 TimeStamp = /53ACF596;
 Reference = R16;
-ValeurCmp = 165;
+ValeurCmp = 330;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53ACF59D;
 Reference = R17;
-ValeurCmp = 261;
+ValeurCmp = 520;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53ACF5A4;
 Reference = R18;
-ValeurCmp = 453;
+ValeurCmp = 900;
 IdModule  = SM0603;
 EndCmp
 
