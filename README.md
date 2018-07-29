@@ -13,7 +13,3 @@ Features
 * Header for a Sharp IR distance sensor
 * Header for a servo
 * Compatible with other BoosterPacks, including the FuelTank battery BoosterPack
-
-Want one?
----------
-PCBs available for sale on Tindie here: https://www.tindie.com/products/HylianSavior/boosterbot/
